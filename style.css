@@ -124,6 +124,24 @@ section::before{
     content: "Software Project";
 }
 
+.contact::before {
+    content: "Contact";
+}
+
+.contact {
+   padding-bottom: 128px; 
+}
+
+.contact-form {
+    border: 2px solid black;
+    border-radius: 24px;
+    padding: 64px 32px;
+}
+
+.form-label {
+    font-weight: 700;
+}
+
 @keyframes upDown {
     0% {
         transform: translateY(0);
